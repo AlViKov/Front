@@ -1,0 +1,38 @@
+body{
+	padding-top: 10px auto;
+}
+.cube{
+	position:relative;
+	border:solid 3px black;
+	width:500px;
+	height: 500px;
+	margin: auto;
+}
+	.red{
+		display: inline-block;
+		background: red;
+		width: 300px;
+		height: 300px;
+	}
+
+	.green{
+		display: inline-block;
+		position: absolute;
+		background: green;
+		width: 300px;
+		height: 300px;
+		margin-top:90px;
+		margin-left:-200px;
+		z-index:999;
+	}
+
+	.blue{
+		display: inline-block;
+		position:absolute;
+		background: blue;
+		width: 300px;
+		height: 300px;
+		margin-top:200px;
+		margin-left:-100px;
+
+	}
