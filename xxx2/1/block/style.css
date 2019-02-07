@@ -1,0 +1,95 @@
+.orange{
+	height: 50px;
+}
+	.orTop{
+		background: orange;
+		float: left;
+		height: 100%;
+		width: 49.5%;
+	}
+
+	.orSec{
+		background: orange;
+		float: right;
+		height: 100%;
+		width: 49.5%;
+	}
+
+.yellow{
+	clear: both;
+	background: yellow;
+	height: 150px;
+	margin: 2% 0px;
+}
+
+.blue{
+	height: 100px;
+}
+	.bTop{
+		background:blue;
+		height:100%;
+		width: 32.75%;
+		float: left;
+		margin-right: 1%;
+	}
+
+	.bSec{
+		background: blue;
+		display: inline-block;
+		height: 100%;
+		width: 32.75%;
+	}
+
+	.bThi{
+		background: blue;
+		height: 100%;
+		width: 32.75%;
+		float: right;
+	}
+
+.silver{
+	margin-top: 2%;
+	padding: 0px;
+	height: 70px;
+}
+
+	.left{
+		float: left;
+		height: 100%;
+		width: 49.5%;
+	}
+
+		.sTop{
+			background:silver;
+			float: left;
+			height: 100%;
+			width: 49.25%;
+		}
+
+		.sSec{
+			background: silver;
+			float: right;
+			height: 100%;
+			width: 49.25%;
+		}
+
+	.right{
+		float: right;
+		height: 100%;
+		width: 49.5%;
+	}
+
+		.sThi{
+			background: silver;
+			float: left;
+			height: 100%;
+			width: 49.25%;
+		}
+
+		.sFour{
+			background: silver;
+			float: right;
+			height: 100%;
+			width: 49.25%;
+		}
+
