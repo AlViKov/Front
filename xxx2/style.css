@@ -1,0 +1,47 @@
+body{
+	background: silver;
+	margin: 0px;
+}
+header{
+	background:rgba(255, 20, 147, 1);
+	border:solid 1px red;
+	border-radius:0px 0px 10px 10px;
+	width:90%;
+	height:15%;
+	margin:0px 5%;
+	text-align:center;
+}
+
+.menu{
+	display:inline-block;
+	position:fixed;
+	background:rgba(255, 20, 147, 0.5);
+	border:1px solid red;
+	height: 600px;
+	width:10%;
+	float:left;
+	top:15%;
+	padding:auto;
+
+}
+a{
+
+}
+.text{
+	color:rgba(139, 0, 0,1);
+	background:white;
+	margin:0px 20%;
+}
+h1{
+	color:rgba(128, 0, 0, 1);
+}
+footer{
+	position:absolute;
+	background:rgba(255, 20, 147, 1);
+	border:solid 1px red;
+	border-radius:10px 10px 0px 0px;
+	width:90%;
+	height:15%;
+	margin:0px 5%;
+	z-index: 999;
+}
