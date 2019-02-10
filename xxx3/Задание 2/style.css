@@ -1,0 +1,81 @@
+.conteiner{
+	display: flex;
+	direction: row;
+	flex-wrap: wrap;
+	color: white;
+	
+}
+
+.conteiner>div>div{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 10px;
+}
+
+	.red{
+		background: red;
+		height: 50px;
+	}
+	.orange{
+		background: orange;
+		height: 50px;
+	}
+
+	.green{
+		background: green;
+		height: 50px;
+	}
+
+	.brown{
+		background: brown;
+		height: 50px;
+	}
+
+	.blue{
+		background: blue;
+		height: 50px;
+	}
+
+	.purple{
+		background: purple;
+		height: 50px;
+	}
+
+@media(min-width: 1200px){
+	.green{
+		height: 200px;
+	}
+
+	.brown{
+		height: 100px;
+	}
+
+	.blue{
+		height: 100px;
+	}
+
+	.purple{
+		height: 100px;
+	}
+}
+
+@media(max-width: 1200px){
+	.red{
+		height: 200px;
+	}
+
+	.green{
+		height: 100px;
+	}
+
+	.blue{
+		height: 100px;
+	}
+}
+
+@media(max-width: 768px){
+	.green{
+		height: 50px;
+	}
+}
