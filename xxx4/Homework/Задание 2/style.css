@@ -1,0 +1,102 @@
+body{
+	margin: 0px;
+}
+
+.conteiner{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	color: white;
+}
+
+.conteiner>div{
+	text-align: center;
+	margin: 0.5%;
+	
+}
+
+.red{
+	background: red;
+	height: 50px;
+	flex-basis: 39%;
+}
+
+.orange{
+	background: orange;
+	height: 50px;
+	flex-basis: 59%;
+}
+
+.green{
+	background: green;
+	height: 200px;
+	flex-basis: 100%;
+}
+
+.brown{
+	background: brown;
+	height: 100px;
+	flex-basis: 32.33%;
+}
+
+.blue{
+	background: blue;
+	height: 100px;
+	flex-basis: 32.33%;
+}
+
+.purple{
+	background: purple;
+	height: 100px;
+	flex-basis: 32.33%;
+}
+
+@media(max-width: 992px){
+	.orange{
+		flex-basis: 39%;/*40%*/
+		order: 1;
+	}
+
+	.purple{
+		height: 50px;
+		flex-basis: 59%;/*60%*/
+		order: 2;
+	}
+
+	.red{
+		height: 200px;
+		flex-basis: 100%;
+		order: 3;
+	}
+
+	.green{
+		height: 100px;
+		flex-basis: 49%;/*50%*/
+		order: 4;
+	}
+
+	.blue{
+		flex-basis: 49%;/*50%*/
+		order: 5;
+	}
+	.brown{
+		display: none;
+	}
+}
+
+@media(max-width: 768px){
+	.green{
+		height: 50px;
+		flex-basis: 100%;
+		order: 1;
+	}
+
+	.purple{
+		flex-basis: 100%;
+		order: 2;
+	}
+
+	.blue,.orange{
+		display: none;
+	}
+}
