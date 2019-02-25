@@ -1,0 +1,25 @@
+table{
+	border-spacing: 10px;
+	width: 80%;
+	margin: auto;
+	text-align: center;
+}
+.orange{
+	background: orange;
+	height: 50px;
+}
+
+.yellow{
+	background: yellow;
+	height: 200px;
+}
+
+.blue{
+	background: blue;
+	height: 150px;
+}
+
+.grey{
+	background: grey;
+	height: 100px;
+}

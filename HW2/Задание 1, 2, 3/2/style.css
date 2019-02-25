@@ -2,9 +2,9 @@ body{
 	padding-top: 10px auto;
 }
 .cube{
-	position:relative;
-	border:solid 3px black;
-	width:500px;
+	position: relative;
+	border: solid 3px black;
+	width: 500px;
 	height: 500px;
 	margin: auto;
 }
@@ -21,18 +21,18 @@ body{
 		background: green;
 		width: 300px;
 		height: 300px;
-		margin-top:90px;
-		margin-left:-200px;
-		z-index:999;
+		top: 95px;
+		left: 100px;
+		z-index: 999;
 	}
 
 	.blue{
 		display: inline-block;
-		position:absolute;
+		position: absolute;
 		background: blue;
 		width: 300px;
 		height: 300px;
-		margin-top:200px;
-		margin-left:-100px;
+		bottom: 0px;
+		right: 0px;
 
 	}
