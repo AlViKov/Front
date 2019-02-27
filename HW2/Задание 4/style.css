@@ -31,9 +31,9 @@ header:hover{
 			right: 0px;
 		}
 
-.cont{
+.content{
 	background: skyblue;
-	margin: 90px 15% 0;
+	margin: 10% 15% 0;
 	margin-bottom: 0px;
 	column-count: 2;
 	border-left: 2px solid blue;
