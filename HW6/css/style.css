@@ -9,12 +9,12 @@ body{
   flex-flow: row wrap;
   justify-content: space-around;
   padding: 0 15%;
-  padding-top: 500px;
+  padding-top: 32%;
   animation: animeStrob 15s infinite;
 }
 
 .conteiner>div{
-  display: flex; /* при отмене картинка не заполняет плок снизу по веритикале*/
+  display: flex; /* при отмене картинка не заполняет блок снизу по веритикале*/
   align-items: center;
   border-radius: 50%;
   border: 10px solid rgba(45,45,45,0.5);
@@ -34,17 +34,17 @@ body{
   width: 200px;
   border: none;
   border-radius: 0%;
-  animation: spider 15s 2;
+  animation: spider 15s 1;
 }
-#text{
+#logo{
   background: url(../pic/logo.png) no-repeat;
   background-size: 100%;
   position: absolute;
-  top: 50px;
+  top: 5%;
   left: center;
-  animation: text 10s infinite;
-  width: 700px;
-  height: 400px;
+  animation: logo 10s infinite;
+  width: 50%;
+  height: 450px;
   border: none;
   border-radius: 0%;
 }
@@ -111,7 +111,7 @@ footer{
   }
 }
 
-@keyframes text{
+@keyframes logo{
   from{
     opacity: 0;
   }
@@ -131,33 +131,33 @@ footer{
 
 @keyframes spider{
   from{
-    bottom: 800px;
+    bottom: 100%;
   }
   40%{
-    bottom: 400px;
+    bottom: 70%;
   }
   41%{
-    bottom: 405px;
+    bottom: 71%;
   }
   50%{
-    bottom: 300px;
+    bottom: 50%;
   }
   51%{
-    bottom: 305px;
+    bottom: 51%;
   }
   60%{
-    bottom: 200px;
+    bottom: 30%;
   }
   61%{
-    bottom: 205px;
+    bottom: 31%;
   }
   70%{
-    bottom: 100px;
+    bottom: 10%;
   }
   80%{
-    bottom: 100px;
+    bottom: 10%;
   }
   to{
-    bottom: 800px;
+    bottom: 120%;
   }
 }
