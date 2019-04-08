@@ -1,0 +1,228 @@
+body{
+	margin: 0 auto;
+	padding: 0;
+	background-image: url(../pic/fon.jpg);
+	font-family: Oswald;
+}
+
+header{
+	position: relative;
+	background: rgba(236,110,67,1);
+	width: 100%;
+	height: 126px;
+}
+
+header>.headerL{
+	position: absolute;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	top: 45px;
+	left: 2%;
+	padding-right: 150px;
+	box-sizing: border-box;
+	width: 45%;
+}
+
+header>div>a{
+	margin: 5px;
+	font-family: Oswald;
+	text-decoration: none;
+	color:white;
+}
+
+header>div>a:hover{
+	text-decoration: none;
+	color: #8F1D21;
+}
+
+header>.headerC{
+	position: absolute;
+	margin-left: 50%;
+	transform: translateX(-50%);
+	background-color: white;
+	width: 326px;
+	height: 137px;
+	border-radius: 0 0 5px 5px;
+	box-shadow: 0 5px 20px grey;
+}
+
+header>.headerC>img{
+
+	margin-left: 50%;
+	transform: translateX(-50%);
+	height: 80%;
+}
+
+header>.headerR{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	position: absolute;
+	right: 3%;
+	padding-left: 150px;
+	box-sizing: border-box;
+	top: 45px;
+	width: 45%;
+}
+
+.headerR>form{
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+}
+
+.headerR>form>.search{
+	border-radius: 15px 0 0 15px;
+	border: none;
+	text-align: right;
+	height: 20px;
+	width: 110px;
+}
+
+.headerR>form>button{
+	border-radius: 0 15px 15px 0;
+	border: none;
+	background-color:#ecbc95; 
+	height: 22px;
+}
+
+.headerR>form>button:hover{
+	background-color: gray;
+	color:white;
+}
+
+.headerR>form>button:active{
+	background-color: rgba(236,110,67,1);
+}
+
+/* Меню */
+
+.menu{
+	position: fixed;
+	margin-top: 25vh;
+	height: 440px;
+	width: 250px;
+	margin-left: -250px;
+	background: rgba(186,161,107,0.5);
+	border-radius: 0 20px 20px 0;
+	z-index: 1;
+	border: 1px solid;
+	animation: menu 2s;
+	animation-fill-mode: forwards;
+}
+
+.menu>form{
+	padding: 10px 30px 0 20px;
+}
+
+.menu>form>span{
+	margin-right: 5px;
+}
+
+.menu>form>p{
+	font-weight: 900;
+}
+
+.menu>form>.moneyIn{/* Отступ между полями "От" "До"*/
+	margin-right: 20px;
+}
+
+/* Контент */
+
+.content{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	margin: 0 auto;
+	max-width: 1140px;
+	background-color: white;
+	font-size: 40px;
+	text-align: center;
+	line-height: 150px;
+	border-radius: 0 0 10px 10px;
+	border-right: 2px solid silver;
+	border-left: 2px solid silver;
+	box-shadow: 0 0 40px gray;
+	padding-bottom: 70px;
+}
+
+.content>a{
+	width: 260px;
+	height: 130px;
+	margin: 50px 13px 0;
+	font-size: 20px;
+	line-height: 220px;
+	color: white;
+	padding-left: 0;
+	border-radius: 15px;
+	text-decoration: none;
+}
+
+.content>a:hover{
+	box-shadow: 0 0 10px 1px gray;
+	text-decoration: none;
+}
+
+.content>a:first-child{
+	background-image: url(../pic/pero.jpg);
+}
+
+.content>a:nth-child(2){
+	background-image: url(../pic/ball_pen.jpg);
+}
+
+.content>a:nth-child(3){
+	background-image: url(../pic/roller.jpg);
+}
+
+.content>a:nth-child(4){
+	background-image: url(../pic/gold.jpg);
+}
+
+.content>a:nth-child(5){
+	background-image: url(../pic/gel.jpg);
+}
+
+.content>a:nth-child(6){
+	background-image: url(../pic/5_element.jpg);
+}
+
+.content>a:nth-child(7){
+	background-image: url(../pic/ax.jpg);
+}
+
+.content>a:nth-child(8){
+	background-image: url(../pic/parker_sets.jpg);
+}
+
+.content>a:last-child{
+	background-image: url(../pic/child.jpg);
+}
+
+/*Футер*/
+
+ footer{
+ 	position: absolute;
+ 	bottom: 0;
+ 	left: 0;
+ 	background-color: black;
+ 	width: 100%;
+ 	height: 40px;
+ 	color:white;
+ 	text-align: center;
+ 	padding-top: 10px;
+ 	box-sizing: border-box;
+ 	margin-top: 20px;
+ }
+
+/*Анимации*/
+
+@keyframes menu{
+	from{
+		margin-left: -300px;
+	}
+	to{
+		margin-left: 0;
+	}
+}

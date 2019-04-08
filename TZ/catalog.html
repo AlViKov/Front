@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Каталог</title>
+	<meta charset="utf-8">
+	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/styleC.css">
+</head>
+<body>
+	<div class="menu">
+		<form>
+			<p>Ваш регион</p>
+			<select name="zip">
+				<option>Минск</option>
+				<option>Могилев</option>
+				<option>Витебск</option>
+				<option>Брест</option>
+				<option>Гомель</option>
+				<option>Гродно
+			</select><br><hr>
+			<p>Cтрана производитель</p>
+			<input type="radio" name="country" value="In">Индия
+			<input type="radio" name="country" value="Fr">Франция
+			<input type="radio" name="country" value="Cn">Китай<br><hr>
+			<p>Состояние</p>
+			<input type="radio" name="state" value="new">Новая
+			<input type="radio" name="state" value="old">Востановленая<br><hr>
+			<p>Цена</p>
+			<span>От</span><input class="moneyIn" size="4 type="text" name="moneyIn">
+			<span>До</span><input class="moneyOut" size="4" type="text" name="moneyOut">
+			<br><br>
+			<input type="submit" value="Подобрать">
+		</form>
+	</div>
+	<div class="conteiner">
+		<header>
+			<div class="headerL">
+				<a href="index.html">Главная</a>
+				<a href="#">Каталог</a>
+				<a href="">Контакты</a>
+				<a href="">Доставка</a>
+			</div>
+			<div class="headerC">
+				<img src="pic/logo.png">
+			</div>
+			<div class="headerR">
+				<a href="">Регистрация</a>
+				<a href="backet.html">Корзина</a>
+				<form>
+					<input class="search" type="text" name="search" placeholder="...Поиск.">
+					<button name="buttom">Искать</button>
+				</form>
+			</div>
+		</header>
+		
+		<div class="content">
+			<a href="pero.html"><div class="block">Перьевые</div></a>
+			<a href="#"><div class="block">Шариковые</div></a>
+			<a href="#"><div class="block">Роллеры</div></a>
+			<a href="#"><div class="block">Золотые</div></a>
+			<a href="#"><div class="block">Гелевые</div></a>
+			<a href="#"><div class="block">5 элемент</div></a>
+			<a href="#"><div class="block">Аксесуары</div></a>
+			<a href="#"><div class="block">Наборы ручек</div></a>
+			<a href="#"><div class="block">Детям</div></a>
+		</div>
+		<a href="contact.html"><footer> by c AlViKov 2019</footer></a>
+	</div>
+   </body>
+</html>
